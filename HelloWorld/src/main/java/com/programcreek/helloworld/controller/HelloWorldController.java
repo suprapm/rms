@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
-@RequestMapping("/springgreetings/home/")
+@RequestMapping("/springgreetings/home/hit")
 public class HelloWorldController {
 
 	String message = "Welcome to Spring MVC!";
