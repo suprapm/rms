@@ -9,10 +9,14 @@
  
 <html>
 <body>
-<h1>Login</h1>
+
  
 	<form name="f" action="<c:url value="/loginProcess" />" method="post">
-		<table>
+		<table align="center" border="1" style="margin-top: 25%;">
+		<tr>
+		<td colspan="2" align="center"><font color="skyblue"><h1>Login</h1></font></td>
+		</tr>
+		
 			<tr>
 				<td>Username:</td>
 				<td><input type="text" 
@@ -23,7 +27,10 @@
 				<td>Password:</td>
 				<td><input type="password" name="j_password" id="j_password" /></td>
 			</tr>
-			<tr><td colspan="2" align="center"><input name="submit" id="submit" type="submit" value="Login" /></td></tr>
+			<tr>
+			<td colspan="1" align="center"><input name="submit" id="submit" type="submit" value="Login" /></td>
+			<td colspan="1" align="center"><a href="adduser.jsp">Register</a></td>
+			</tr>
 		</table>
 	</form>
 	<c:if test="${not empty param.login_error}">
