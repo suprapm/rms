@@ -23,7 +23,7 @@ public class HelloWorldController {
 
 		logger.info("entering showAddGreetingPage()");
 		System.out.println("GAurav!!WelDone ");
-		System.out.println("finalconformation");
+		System.out.println("finalconformation444444");
 		//no need to add colorlist to the model anymore since it is defined at method level below
 		//no need to have the model object in this method either
 		System.err.println("i am in controller");
